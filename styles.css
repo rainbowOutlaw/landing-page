@@ -76,3 +76,43 @@ a{
     height: auto;
     width: 25vw;
 }
+
+/* BODY-PART */
+
+.body-head{
+    text-align: center;
+    margin: 5vh 0;
+    font-size: 36px;
+}
+
+.testimonies{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: small;
+}
+
+.card{
+    flex: 0 1 170px;
+    text-align: center;
+}
+
+.quote{
+    margin-top: 100px;
+    height: 50vh;
+    background-color: #E5E7EB;
+    position: relative;
+}
+
+.quote-text{
+    width: 50vw;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-author{
+    position: absolute;
+    bottom: 65px;
+    right: 300px;
+}
